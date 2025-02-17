@@ -3,8 +3,8 @@ body {
     text-align: center;
     background-color: #222;
     color: white;
-
 }
+
 button {
     background-color: blue;
     color: white;
@@ -23,4 +23,39 @@ canvas {
     border-radius: 50%;
     margin-top: 20px;
 }
+
+/* ไอคอนตั้งค่า */
+#settingsIcon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* หน้าต่างตั้งค่า */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20% auto;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
 }
