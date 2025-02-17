@@ -20,6 +20,25 @@
     <div id="message"></div>
     <div id="result"></div>
 
+    <!-- ไอคอนตั้งค่า -->
+    <div id="settingsIcon">⚙️</div>
+
+    <!-- หน้าต่างตั้งค่า -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>ตั้งค่าโอกาสรางวัล</h2>
+            <label for="keyInput">กรุณาใส่ Key:</label>
+            <input type="password" id="keyInput">
+            <button id="verifyKey">ยืนยัน</button>
+            <div id="settingsForm" style="display: none;">
+                <p>ตั้งค่าเปอร์เซ็นต์โอกาสของแต่ละรางวัล:</p>
+                <div id="prizeSettings"></div>
+                <button id="saveSettings">บันทึก</button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
